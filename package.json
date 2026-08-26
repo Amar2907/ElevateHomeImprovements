@@ -1,0 +1,17 @@
+{
+  "name": "outdoor-craft-co-site",
+  "version": "1.0.0",
+  "description": "Outdoor Craft Co. website + admin portal, backed by Postgres (Neon)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "stripe": "^16.8.0"
+  }
+}

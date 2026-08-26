@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Outdoor Craft Co. — Decks, Patios &amp; Pergolas, Warragul</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 fill=%27%230D0E11%27/%3E%3Ctext x=%2732%27 y=%2743%27 font-family=%27Georgia,serif%27 font-size=%2730%27 fill=%27%23C98B56%27 text-anchor=%27middle%27%3EOC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,450;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1B1815;
+    --charcoal:#2B2622;
+    --charcoal-2:#332C27;
+    --sapwood:#EDE6D6;
+    --sapwood-2:#E3D9C4;
+    --timber:#C98B56;
+    --timber-dark:#A96E3D;
+    --rust:#8C4A2F;
+    --sage:#8A9A8E;
+    --line: rgba(27,24,20,0.14);
+    --line-dark: rgba(237,230,214,0.16);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--sapwood);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  .mono{
+    font-family:'IBM Plex Mono',monospace;
+    text-transform:uppercase;
+    letter-spacing:0.09em;
+    font-size:0.72rem;
+  }
+  a{color:inherit;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 32px;}
+  :focus-visible{outline:2px solid var(--rust); outline-offset:3px;}
+
+  /* ---------- Placeholder media ---------- */
+  .ph{
+    position:relative;
+    overflow:hidden;
+    border-radius:4px;
+    background:
+      repeating-linear-gradient(100deg,
+        #B98450 0px, #B98450 34px,
+        #A96E3D 34px, #A96E3D 38px,
+        #C6935E 38px, #C6935E 70px,
+        #A9713F 70px, #A9713F 74px);
+  }
+  .ph::before{
+    content:"";
+    position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(27,24,20,0) 40%, rgba(27,24,20,0.45) 100%);
+  }
+  .ph::after{
+    content: attr(data-label);
+    position:absolute;
+    left:14px; bottom:12px;
+    color:#F4EFE6;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.68rem;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    background:rgba(27,24,20,0.55);
+    padding:5px 9px;
+    border:1px dashed rgba(244,239,230,0.6);
+    border-radius:3px;
+  }
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:#0D0E11;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    height:84px;
+  }
+  .logo-mark{height:44px; width:auto; display:block;}
+  nav ul{list-style:none; display:flex; gap:34px; margin:0; padding:0;}
+  nav ul a{
+    text-decoration:none; font-size:0.92rem; font-weight:500;
+    color:#E3D9C4;
+    position:relative; padding-bottom:3px;
+  }
+  nav ul a::after{
+    content:""; position:absolute; left:0; bottom:0; height:1px; width:0;
+    background:var(--timber); transition:width .25s ease;
+  }
+  nav ul a:hover::after{width:100%;}
+  .nav-cta{
+    display:flex; align-items:center; gap:18px;
+  }
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    background:var(--ink); color:var(--sapwood);
+    padding:11px 20px; border-radius:3px;
+    text-decoration:none; font-size:0.88rem; font-weight:600;
+    border:1px solid var(--ink);
+    transition:transform .2s ease, background .2s ease;
+  }
+  .btn:hover{background:var(--rust); border-color:var(--rust); transform:translateY(-1px);}
+  header .btn{background:var(--timber); color:#1B1815; border-color:var(--timber);}
+  header .btn:hover{background:var(--sapwood); border-color:var(--sapwood);}
+  .btn-ghost{
+    background:transparent; color:var(--ink); border:1px solid var(--line);
+  }
+  .btn-ghost:hover{background:var(--ink); color:var(--sapwood); border-color:var(--ink);}
+  .phone-link{font-size:0.88rem; font-weight:600; text-decoration:none; display:none; color:#E3D9C4;}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding:88px 0 76px;
+    position:relative;
+  }
+  .hero-grid{
+    display:grid; grid-template-columns:1.05fr 0.95fr; gap:56px; align-items:center;
+  }
+  .eyebrow{
+    display:flex; align-items:center; gap:10px; margin-bottom:22px;
+    color:var(--rust);
+  }
+  .eyebrow .rule{width:34px; height:1px; background:var(--rust);}
+  .hero h1{
+    font-size:clamp(2.6rem, 4.6vw, 4.1rem);
+    line-height:0.98;
+  }
+  .hero h1 em{
+    font-style:italic; color:var(--timber-dark);
+  }
+  .hero p.lede{
+    max-width:460px; margin:26px 0 34px;
+    font-size:1.08rem; color:#4A433C;
+  }
+  .hero-actions{display:flex; gap:16px; align-items:center; flex-wrap:wrap;}
+  .hero-visual{
+    aspect-ratio:4/4.6;
+    display:grid; grid-template-rows: 1.3fr 1fr;
+    gap:10px;
+  }
+  .hero-visual .ph:first-child{aspect-ratio:auto;}
+  .hero-visual .ph-row{display:grid; grid-template-columns:1fr 1fr; gap:10px;}
+  .hero-visual .ph-row .ph{aspect-ratio:1/1;}
+
+  .trust-strip{
+    border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+    padding:22px 0;
+  }
+  .trust-strip .wrap{
+    display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:14px;
+  }
+  .trust-strip .areas{display:flex; gap:22px; flex-wrap:wrap; color:#4A433C; font-size:0.86rem;}
+  .trust-strip .areas span{position:relative; padding-left:16px;}
+  .trust-strip .areas span::before{
+    content:""; position:absolute; left:0; top:50%; transform:translateY(-50%);
+    width:5px; height:5px; background:var(--sage); border-radius:50%;
+  }
+
+  /* ---------- Section shell ---------- */
+  section{padding:96px 0;}
+  .section-head{
+    display:flex; justify-content:space-between; align-items:flex-end; gap:24px;
+    margin-bottom:52px; flex-wrap:wrap;
+  }
+  .section-head h2{font-size:clamp(1.9rem,3vw,2.6rem);}
+  .section-head .kicker{color:var(--rust); margin-bottom:10px; display:block;}
+  .section-head p{max-width:420px; color:#4A433C; margin:14px 0 0;}
+
+  /* ---------- Services: cut-list tags ---------- */
+  .services{background:var(--charcoal); color:var(--sapwood);}
+  .services .kicker{color:var(--timber);}
+  .services .section-head p{color:#C9C0B2;}
+  .tags{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:28px;
+  }
+  .tag{
+    background:var(--charcoal-2);
+    border:1px solid var(--line-dark);
+    border-radius:6px;
+    padding:30px 26px 26px;
+    position:relative;
+    transition:transform .35s cubic-bezier(.2,.7,.3,1), border-color .35s ease;
+  }
+  .tag:hover{transform:translateY(-6px) rotate(-0.6deg); border-color:var(--timber);}
+  .tag::before{
+    content:""; position:absolute; top:18px; right:18px;
+    width:10px; height:10px; border-radius:50%;
+    border:1.5px solid var(--sapwood-2); opacity:0.5;
+  }
+  .tag .tag-no{color:var(--timber); margin-bottom:18px; display:block;}
+  .tag h3{font-size:1.4rem; color:var(--sapwood); margin-bottom:12px;}
+  .tag p{color:#C9C0B2; font-size:0.94rem; margin:0 0 20px;}
+  .spec{
+    border-top:1px dashed var(--line-dark);
+    padding-top:14px; display:flex; flex-direction:column; gap:7px;
+  }
+  .spec-row{display:flex; justify-content:space-between; font-size:0.78rem; color:#A79E90;}
+  .spec-row b{color:var(--sapwood); font-weight:500; font-family:'IBM Plex Mono',monospace; font-size:0.78rem;}
+
+  /* ---------- Shop ---------- */
+  .shop-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:28px;}
+  .shop-card{background:#fff; border:1px solid var(--line); border-radius:6px; overflow:hidden; display:flex; flex-direction:column; transition:transform .3s ease;}
+  .shop-card:hover{transform:translateY(-4px);}
+  .shop-card .shop-img{aspect-ratio:4/3;}
+  .shop-card .shop-body{padding:20px; display:flex; flex-direction:column; gap:8px; flex:1;}
+  .shop-card h3{font-size:1.15rem;}
+  .shop-card .shop-desc{color:#4A433C; font-size:0.88rem; flex:1;}
+  .shop-card .shop-price{font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:1.05rem; color:var(--rust);}
+  .shop-card .btn{width:100%; justify-content:center; margin-top:6px;}
+
+  /* ---------- Cart drawer ---------- */
+  #cart-overlay{position:fixed; inset:0; background:rgba(27,24,20,0.5); z-index:200; display:none;}
+  #cart-drawer{position:fixed; top:0; right:0; height:100%; width:400px; max-width:92vw; background:var(--sapwood); z-index:201; box-shadow:-8px 0 30px rgba(0,0,0,0.2); display:flex; flex-direction:column; transform:translateX(100%); transition:transform .3s ease;}
+  #cart-drawer.open{transform:translateX(0);}
+  #cart-overlay.open{display:block;}
+  .cart-head{display:flex; justify-content:space-between; align-items:center; padding:22px 24px; border-bottom:1px solid var(--line);}
+  .cart-head h3{font-size:1.2rem;}
+  .cart-close{background:none; border:none; font-size:1.4rem; cursor:pointer; color:var(--ink); line-height:1;}
+  .cart-items{flex:1; overflow-y:auto; padding:18px 24px;}
+  .cart-line{display:flex; gap:12px; padding:14px 0; border-bottom:1px solid var(--line); align-items:center;}
+  .cart-line-name{font-weight:600; font-size:0.92rem;}
+  .cart-line-price{font-size:0.82rem; color:#6B6255;}
+  .cart-qty{display:flex; align-items:center; gap:8px;}
+  .cart-qty button{width:26px; height:26px; border-radius:3px; border:1px solid var(--line); background:#fff; cursor:pointer;}
+  .cart-foot{padding:20px 24px; border-top:1px solid var(--line);}
+  .cart-total{display:flex; justify-content:space-between; font-weight:600; margin-bottom:14px; font-size:1.05rem;}
+  #checkout-form input, #checkout-form select, #checkout-form textarea{width:100%; box-sizing:border-box; padding:10px 12px; border-radius:3px; border:1px solid var(--line); font-family:inherit; font-size:0.9rem; margin-bottom:10px;}
+
+  /* ---------- Social icons ---------- */
+  .social-row{display:flex; gap:12px; margin-top:14px;}
+  .social-row a{width:34px; height:34px; border-radius:50%; border:1px solid rgba(255,255,255,0.25); display:flex; align-items:center; justify-content:center; color:#E3D9C4; text-decoration:none;}
+  .social-row a:hover{background:rgba(255,255,255,0.1);}
+
+  /* ---------- Process ---------- */
+  .process-list{border-top:1px solid var(--line);}
+  .step{
+    display:grid; grid-template-columns:90px 1fr 1.3fr; gap:32px;
+    padding:34px 0; border-bottom:1px solid var(--line);
+    align-items:start;
+  }
+  .step .num{font-family:'IBM Plex Mono',monospace; color:var(--rust); font-size:0.95rem; padding-top:4px;}
+  .step h3{font-size:1.25rem; font-weight:600;}
+  .step p{margin:10px 0 0; color:#4A433C; max-width:480px;}
+
+  /* ---------- Gallery ---------- */
+  .gallery-grid{
+    display:grid; grid-template-columns:repeat(3,1fr); grid-auto-rows:220px; gap:14px;
+  }
+  .gallery-grid .ph:nth-child(1){grid-column:span 2; grid-row:span 2;}
+  .gallery-note{
+    margin-top:22px; font-size:0.86rem; color:#4A433C;
+    display:flex; align-items:center; gap:10px;
+  }
+  .gallery-note .swatch{width:9px; height:9px; background:var(--rust); border-radius:50%; flex:none;}
+
+  /* ---------- CTA band ---------- */
+  .cta-band{
+    background:var(--timber); color:var(--ink);
+    border-radius:8px; padding:56px 48px;
+    display:flex; align-items:center; justify-content:space-between; gap:32px; flex-wrap:wrap;
+  }
+  .cta-band h2{font-size:clamp(1.7rem,3vw,2.3rem); max-width:480px;}
+  .cta-band .btn{background:var(--ink); color:var(--sapwood); border-color:var(--ink);}
+  .cta-band .btn:hover{background:var(--charcoal);}
+
+  /* ---------- Footer ---------- */
+  footer{background:#0D0E11; color:var(--sapwood); padding:64px 0 32px;}
+  .foot-grid{
+    display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:40px;
+    padding-bottom:40px; border-bottom:1px solid var(--line-dark);
+  }
+  footer h4{font-family:'IBM Plex Mono',monospace; font-size:0.74rem; letter-spacing:0.08em; text-transform:uppercase; color:#A79E90; margin:0 0 16px; font-weight:500;}
+  footer .logo{color:var(--sapwood); margin-bottom:14px;}
+  footer p{color:#C9C0B2; max-width:280px; font-size:0.92rem;}
+  footer ul{list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px;}
+  footer ul a{text-decoration:none; color:#C9C0B2; font-size:0.92rem;}
+  footer ul a:hover{color:var(--timber);}
+  .foot-bottom{
+    padding-top:24px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;
+    color:#83786A; font-size:0.8rem;
+  }
+
+  /* ---------- Reveal ---------- */
+  .reveal{opacity:0; transform:translateY(18px); transition:opacity .7s ease, transform .7s ease;}
+  .reveal.in{opacity:1; transform:none;}
+
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1; transform:none; transition:none;}
+    .tag:hover{transform:none;}
+  }
+
+  /* ---------- Mobile ---------- */
+  .hamburger{display:none; flex-direction:column; justify-content:center; gap:4px; width:34px; height:34px; background:none; border:1px solid rgba(255,255,255,0.25); border-radius:3px; cursor:pointer; padding:0;}
+  .hamburger span{display:block; width:16px; height:2px; background:#E3D9C4; margin:0 auto; transition:transform .2s ease, opacity .2s ease;}
+  #mobile-menu{display:none; flex-direction:column; background:#0D0E11; border-top:1px solid rgba(255,255,255,0.1);}
+  #mobile-menu.open{display:flex;}
+  #mobile-menu a{color:#E3D9C4; text-decoration:none; padding:14px 24px; font-size:0.95rem; border-bottom:1px solid rgba(255,255,255,0.06);}
+  #mobile-menu a:last-child{border-bottom:none;}
+
+  @media (max-width: 900px){
+    nav ul{display:none;}
+    .hamburger{display:flex;}
+    .hero-grid{grid-template-columns:1fr;}
+    .tags{grid-template-columns:1fr;}
+    .shop-grid{grid-template-columns:1fr;}
+    .step{grid-template-columns:1fr; gap:8px;}
+    .gallery-grid{grid-template-columns:repeat(2,1fr); grid-auto-rows:160px;}
+    .gallery-grid .ph:nth-child(1){grid-column:span 2; grid-row:span 1;}
+    .foot-grid{grid-template-columns:1fr; gap:28px;}
+    .cta-band{flex-direction:column; align-items:flex-start;}
+    .phone-link{display:none !important;}
+    #nav-quote-btn{display:none;}
+  }
+
+  /* ---------- Admin portal ---------- */
+  #admin-view{min-height:100vh; background:#F3EFE6; color:var(--ink); display:none;}
+  .admin-bar{background:#0D0E11; color:#E3D9C4; padding:16px 28px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px;}
+  .admin-bar .abrand{font-family:'Fraunces',serif; font-weight:600; font-size:1.05rem;}
+  .admin-bar a, .admin-bar button{color:#E3D9C4; text-decoration:none; font-size:0.86rem; background:none; border:1px solid rgba(255,255,255,0.25); padding:8px 14px; border-radius:3px; cursor:pointer; font-family:inherit;}
+  .admin-bar a:hover, .admin-bar button:hover{background:rgba(255,255,255,0.08);}
+  .admin-wrap{max-width:920px; margin:0 auto; padding:36px 24px 80px;}
+  .admin-login{min-height:100vh; display:flex; align-items:center; justify-content:center; background:#0D0E11;}
+  .admin-login-card{background:#1B1815; padding:44px 40px; border-radius:8px; width:100%; max-width:360px; text-align:center;}
+  .admin-login-card h2{color:#EDE6D6; font-size:1.5rem; margin-bottom:8px;}
+  .admin-login-card p{color:#A79E90; font-size:0.86rem; margin:0 0 24px;}
+  .admin-login-card input{width:100%; padding:12px 14px; border-radius:3px; border:1px solid rgba(255,255,255,0.18); background:rgba(255,255,255,0.05); color:#EDE6D6; font-family:inherit; font-size:0.95rem; margin-bottom:14px; box-sizing:border-box;}
+  .admin-login-card button{width:100%; padding:12px; border-radius:3px; border:none; background:var(--timber); color:#1B1815; font-weight:600; cursor:pointer; font-family:inherit;}
+  .admin-login-error{color:#D98B7A; font-size:0.82rem; margin-top:-6px; margin-bottom:14px; display:none;}
+  .admin-tabs{display:flex; gap:8px; margin-bottom:30px; border-bottom:1px solid var(--line); flex-wrap:wrap;}
+  .admin-tab{padding:11px 18px; font-size:0.88rem; font-weight:600; cursor:pointer; border:none; background:none; color:#8A7F6E; border-bottom:2px solid transparent; font-family:inherit;}
+  .admin-tab.active{color:var(--ink); border-bottom-color:var(--rust);}
+  .admin-panel{display:none;}
+  .admin-panel.active{display:block;}
+  .afield{margin-bottom:16px;}
+  .afield label{display:block; font-size:0.78rem; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; color:#6B6255; margin-bottom:6px; font-family:'IBM Plex Mono',monospace;}
+  .afield input, .afield textarea, .afield select{width:100%; box-sizing:border-box; padding:10px 12px; border-radius:3px; border:1px solid var(--line); font-family:'Inter',sans-serif; font-size:0.92rem; background:#fff;}
+  .afield textarea{resize:vertical;}
+  .arow2{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  .acard{background:#fff; border:1px solid var(--line); border-radius:6px; padding:22px; margin-bottom:20px;}
+  .acard h4{font-family:'IBM Plex Mono',monospace; text-transform:uppercase; font-size:0.76rem; letter-spacing:0.06em; color:var(--rust); margin:0 0 16px;}
+  .asave{background:var(--ink); color:#fff; border:none; padding:12px 22px; border-radius:3px; font-weight:600; cursor:pointer; font-family:inherit; font-size:0.9rem;}
+  .asave:hover{background:var(--rust);}
+  .asaved-msg{color:#3E7C4A; font-size:0.85rem; font-weight:600; margin-left:14px; display:none;}
+  .gitem{display:grid; grid-template-columns:1fr 1fr auto; gap:10px; align-items:center; margin-bottom:10px;}
+  .gitem input{padding:9px 11px; border-radius:3px; border:1px solid var(--line); font-family:inherit;}
+  .gremove{background:none; border:1px solid var(--line); border-radius:3px; padding:9px 12px; cursor:pointer; color:#8C4A2F;}
+  .lead-card{background:#fff; border:1px solid var(--line); border-radius:6px; padding:18px 20px; margin-bottom:14px;}
+  .lead-top{display:flex; justify-content:space-between; align-items:flex-start; gap:12px; flex-wrap:wrap;}
+  .lead-name{font-weight:600; font-size:1.02rem;}
+  .lead-meta{font-size:0.82rem; color:#6B6255; margin-top:3px;}
+  .lead-msg{font-size:0.88rem; color:#4A433C; margin:10px 0; padding:10px 12px; background:#F7F3EA; border-radius:4px;}
+  .status-pill{font-size:0.72rem; padding:5px 10px; border-radius:20px; font-weight:600; border:1px solid var(--line);}
+  .empty-note{color:#8A7F6E; font-size:0.88rem; padding:20px 0;}
+</style>
+</head>
+<body>
+<div id="public-view">
+
+<header>
+  <div class="wrap nav">
+    <a href="#" id="c-nav-logo" style="display:flex;align-items:center; gap:2px; text-decoration:none;">
+      <span style="font-family:'Fraunces',serif; font-weight:600; font-size:1.3rem; color:#EDE6D6; letter-spacing:0.01em;">Outdoor Craft<span style="color:var(--timber);"> Co.</span></span>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a class="phone-link" id="c-phone-link" href="tel:0000000000">[ADD PHONE]</a>
+      <button onclick="openCart()" style="position:relative; background:none; border:1px solid rgba(255,255,255,0.25); border-radius:3px; padding:9px 12px; cursor:pointer; color:#E3D9C4; font-family:inherit;" aria-label="Open cart">
+        🛒 <span id="cart-count" style="display:none; position:absolute; top:-7px; right:-7px; background:var(--rust); color:#fff; font-size:0.68rem; font-weight:700; width:18px; height:18px; border-radius:50%; align-items:center; justify-content:center; line-height:18px; text-align:center;">0</span>
+      </button>
+      <a class="btn" href="#contact" id="nav-quote-btn">Get a quote</a>
+      <button class="hamburger" onclick="toggleMobileMenu()" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu">
+    <a href="#shop" onclick="closeMobileMenu()">Shop</a>
+    <a href="#work" onclick="closeMobileMenu()">Work</a>
+    <a href="#services" onclick="closeMobileMenu()">Services</a>
+    <a href="#process" onclick="closeMobileMenu()">Process</a>
+    <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="reveal">
+      <div class="eyebrow mono"><span class="rule"></span><span id="c-eyebrow">Warragul &amp; the Gippsland region</span></div>
+      <h1><span id="c-hl-a">Outdoor living, </span><em id="c-hl-em">built to last</em><span id="c-hl-b"> the seasons.</span></h1>
+      <p class="lede" id="c-lede">Outdoor Craft Co. designs and builds timber decks, patios and pergolas on-site in Warragul — framed for our climate, finished to stay in the family for years.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#contact">Get a free quote</a>
+        <a class="btn btn-ghost" href="#work">See recent builds</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="ph" data-label="Add hero photo — completed deck"></div>
+      <div class="ph-row">
+        <div class="ph" data-label="Job in progress"></div>
+        <div class="ph" data-label="Finished pergola"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="trust-strip">
+  <div class="wrap">
+    <div class="mono" style="color:#4A433C;">Proudly serving</div>
+    <div class="areas" id="c-areas">
+      <span>Warragul</span><span>Drouin</span><span>Trafalgar</span><span>Yarragon</span><span>Neerim South</span>
+    </div>
+  </div>
+</div>
+
+<section id="shop" style="background:var(--sapwood-2);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="mono kicker">Ready to go</span>
+        <h2>Prebuilt decks &amp; pergolas.</h2>
+      </div>
+      <p>Off-the-shelf kits you can order online — delivered or ready for pickup in Warragul.</p>
+    </div>
+    <div id="shop-grid" class="shop-grid">
+      <div class="empty-note">Loading products…</div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="mono kicker">What we build</span>
+        <h2>Three builds. One&nbsp;standard.</h2>
+      </div>
+      <p>Every job is measured and framed on-site — nothing pre-fabricated, nothing forced to fit.</p>
+    </div>
+    <div class="tags" id="c-tags">
+      <div class="tag reveal" data-svc="0">
+        <span class="mono tag-no">01 / Deck</span>
+        <h3>Decks</h3>
+        <p>Raised or ground-level decking that extends the house outward — built around downpipes, slopes and existing trees rather than against them.</p>
+        <div class="spec">
+          <div class="spec-row"><span>Typical timber</span><b>Merbau / Spotted Gum</b></div>
+          <div class="spec-row"><span>Best for</span><b>Sloped blocks, entertaining</b></div>
+        </div>
+      </div>
+      <div class="tag reveal" data-svc="1">
+        <span class="mono tag-no">02 / Patio</span>
+        <h3>Patios</h3>
+        <p>Covered, all-weather patios that give you a usable outdoor room through Gippsland's wetter months, not just the summer ones.</p>
+        <div class="spec">
+          <div class="spec-row"><span>Typical roofing</span><b>Insulated / polycarb</b></div>
+          <div class="spec-row"><span>Best for</span><b>Year-round living space</b></div>
+        </div>
+      </div>
+      <div class="tag reveal" data-svc="2">
+        <span class="mono tag-no">03 / Pergola</span>
+        <h3>Pergolas</h3>
+        <p>Open-frame structures for shade and definition — a lighter-touch build for framing a spa, alfresco area or garden entertaining space.</p>
+        <div class="spec">
+          <div class="spec-row"><span>Typical timber</span><b>Treated pine / hardwood</b></div>
+          <div class="spec-row"><span>Best for</span><b>Shade, garden zoning</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="mono kicker">How a build runs</span>
+        <h2>From first measure to handover.</h2>
+      </div>
+      <p>The same five stages on every job, so you always know what's next.</p>
+    </div>
+    <div class="process-list" id="c-process-list">
+      <div class="step reveal" data-step="0">
+        <div class="num">01</div>
+        <h3>Consult &amp; measure</h3>
+        <p>We walk the site with you, talk through how the space will actually be used, and take accurate measurements.</p>
+      </div>
+      <div class="step reveal" data-step="1">
+        <div class="num">02</div>
+        <h3>Design &amp; council check</h3>
+        <p>Layout, timber and finish are confirmed, and we handle any Baw Baw Shire permit requirements before work starts.</p>
+      </div>
+      <div class="step reveal" data-step="2">
+        <div class="num">03</div>
+        <h3>Footings &amp; frame</h3>
+        <p>Footings are set to depth for our local ground conditions, then the frame goes up square and level.</p>
+      </div>
+      <div class="step reveal" data-step="3">
+        <div class="num">04</div>
+        <h3>Decking, screening &amp; finish</h3>
+        <p>Boards, balustrades or screening are fitted, then oiled or stained ready for weather.</p>
+      </div>
+      <div class="step reveal" data-step="4">
+        <div class="num">05</div>
+        <h3>Walkthrough &amp; handover</h3>
+        <p>We walk the finished build with you, cover care and maintenance, and hand it over.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work" style="background:var(--sapwood-2);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <span class="mono kicker">Recent builds</span>
+        <h2>A few from around Warragul.</h2>
+      </div>
+      <p>Gallery placeholders below — swap these for your own project photos.</p>
+    </div>
+    <div class="gallery-grid reveal" id="c-gallery-grid">
+      <div class="ph" data-label="+ Add photo"></div>
+      <div class="ph" data-label="+ Add photo"></div>
+      <div class="ph" data-label="+ Add photo"></div>
+      <div class="ph" data-label="+ Add photo"></div>
+      <div class="ph" data-label="+ Add photo"></div>
+    </div>
+    <div class="gallery-note reveal"><span class="swatch"></span>Placeholder imagery shown throughout — replace with your logo and project photos before publishing.</div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="cta-band reveal" id="c-cta-band">
+      <div style="flex:1; min-width:280px;">
+        <h2 id="c-cta-h2">Got a space in mind? Let's measure it up.</h2>
+        <form id="quote-form" style="margin-top:26px; display:grid; grid-template-columns:1fr 1fr; gap:12px; max-width:560px;">
+          <input required name="name" placeholder="Your name" style="grid-column:span 1; padding:11px 13px; border-radius:3px; border:1px solid rgba(27,24,20,0.25); font-family:inherit; font-size:0.92rem;">
+          <input name="phone" placeholder="Phone" style="grid-column:span 1; padding:11px 13px; border-radius:3px; border:1px solid rgba(27,24,20,0.25); font-family:inherit; font-size:0.92rem;">
+          <input name="email" type="email" placeholder="Email" style="grid-column:span 2; padding:11px 13px; border-radius:3px; border:1px solid rgba(27,24,20,0.25); font-family:inherit; font-size:0.92rem;">
+          <select name="service" style="grid-column:span 2; padding:11px 13px; border-radius:3px; border:1px solid rgba(27,24,20,0.25); font-family:inherit; font-size:0.92rem;">
+            <option value="Deck">Deck</option>
+            <option value="Patio">Patio</option>
+            <option value="Pergola">Pergola</option>
+            <option value="Not sure yet">Not sure yet</option>
+          </select>
+          <textarea name="message" placeholder="Tell us a bit about your space..." rows="3" style="grid-column:span 2; padding:11px 13px; border-radius:3px; border:1px solid rgba(27,24,20,0.25); font-family:inherit; font-size:0.92rem; resize:vertical;"></textarea>
+          <button type="submit" class="btn" style="grid-column:span 2; justify-content:center;">Request a quote</button>
+        </form>
+        <div id="quote-error" style="display:none; margin-top:14px; color:#B23A2E; font-size:0.85rem;"></div>
+        <div id="quote-success" style="display:none; margin-top:16px; font-weight:600;">Thanks — we'll be in touch shortly. You can also email us directly below.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div id="c-footer-logo" style="font-family:'Fraunces',serif; font-weight:600; font-size:1.4rem; color:#EDE6D6; margin-bottom:16px;">Outdoor Craft<span style="color:var(--timber);"> Co.</span></div>
+        <p>Decks, patios &amp; pergolas, designed and built on-site across Warragul and the greater Baw Baw Shire.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li id="c-foot-phone">[Add phone number]</li>
+          <li id="c-foot-email">[Add email address]</li>
+          <li id="c-foot-address">Warragul, VIC</li>
+        </ul>
+        <div class="social-row" id="c-social-row"></div>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Outdoor Craft Co.</span>
+      <span>Site draft — add ABN / licence number here</span>
+    </div>
+  </div>
+</footer>
+
+<div id="cart-overlay" onclick="closeCart()"></div>
+<div id="cart-drawer">
+  <div class="cart-head">
+    <h3>Your cart</h3>
+    <button class="cart-close" onclick="closeCart()" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-foot" id="cart-foot"></div>
+</div>
+</div><!-- /public-view -->
+
+<script>
+  const els = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, {threshold:0.15});
+  els.forEach(el=>io.observe(el));
+</script>
+
+<div id="admin-view">
+  <div id="admin-login" class="admin-login">
+    <div class="admin-login-card">
+      <h2>Admin</h2>
+      <p>Outdoor Craft Co. — site &amp; leads</p>
+      <input type="password" id="admin-pass" placeholder="Password" autocomplete="off">
+      <div class="admin-login-error" id="admin-pass-error">Incorrect password — try again.</div>
+      <button onclick="tryAdminLogin()">Log in</button>
+    </div>
+  </div>
+
+  <div id="admin-dashboard" style="display:none;">
+    <div class="admin-bar">
+      <div class="abrand">Outdoor Craft Co. — Admin</div>
+      <div style="display:flex; gap:10px;">
+        <a href="#">View live site</a>
+        <button onclick="adminLogout()">Log out</button>
+      </div>
+    </div>
+    <div class="admin-wrap">
+      <div class="admin-tabs">
+        <button class="admin-tab active" data-tab="content" onclick="showAdminTab('content')">Site content</button>
+        <button class="admin-tab" data-tab="gallery" onclick="showAdminTab('gallery')">Gallery</button>
+        <button class="admin-tab" data-tab="leads" onclick="showAdminTab('leads')">Jobs &amp; quotes</button>
+        <button class="admin-tab" data-tab="stock" onclick="showAdminTab('stock')">Stock</button>
+        <button class="admin-tab" data-tab="products" onclick="showAdminTab('products')">Shop products</button>
+        <button class="admin-tab" data-tab="orders" onclick="showAdminTab('orders')">Orders</button>
+      </div>
+
+      <!-- CONTENT TAB -->
+      <div class="admin-panel active" id="tab-content">
+        <div class="acard">
+          <h4>Logo</h4>
+          <p style="font-size:0.85rem; color:#6B6255; margin-top:0;">Paste a hosted image URL (transparent PNG works best on the dark header/footer). Leave blank to keep the text wordmark.</p>
+          <div class="afield"><label>Logo image URL</label><input id="f-logo" placeholder="https://..."></div>
+        </div>
+
+        <div class="acard">
+          <h4>Hero</h4>
+          <div class="afield"><label>Eyebrow line</label><input id="f-eyebrow"></div>
+          <div class="arow2">
+            <div class="afield"><label>Headline (before emphasis)</label><input id="f-hl-a"></div>
+            <div class="afield"><label>Headline (emphasised words)</label><input id="f-hl-em"></div>
+          </div>
+          <div class="afield"><label>Headline (after emphasis)</label><input id="f-hl-b"></div>
+          <div class="afield"><label>Subtext</label><textarea id="f-lede" rows="3"></textarea></div>
+        </div>
+
+        <div class="acard">
+          <h4>Contact details</h4>
+          <div class="arow2">
+            <div class="afield"><label>Phone</label><input id="f-phone" placeholder="03 5623 0000"></div>
+            <div class="afield"><label>Email</label><input id="f-email" placeholder="info@outdoorcraftco.com.au"></div>
+          </div>
+          <div class="afield"><label>Address / area</label><input id="f-address" placeholder="Warragul, VIC"></div>
+          <div class="afield"><label>Areas served (comma separated)</label><input id="f-areas" placeholder="Warragul, Drouin, Trafalgar"></div>
+        </div>
+
+        <div class="acard">
+          <h4>Services (3 cards)</h4>
+          <div id="f-services"></div>
+        </div>
+
+        <div class="acard">
+          <h4>Process (5 steps)</h4>
+          <div id="f-process"></div>
+        </div>
+
+        <div class="acard">
+          <h4>Quote section headline</h4>
+          <div class="afield"><label>Heading</label><input id="f-cta-h2"></div>
+        </div>
+
+        <div class="acard">
+          <h4>Social media (for marketing)</h4>
+          <p style="font-size:0.85rem; color:#6B6255; margin-top:0;">Leave a field blank to hide that icon on the live site.</p>
+          <div class="afield"><label>Facebook URL</label><input id="f-facebook" placeholder="https://facebook.com/yourpage"></div>
+          <div class="afield"><label>Instagram URL</label><input id="f-instagram" placeholder="https://instagram.com/yourhandle"></div>
+          <div class="afield"><label>TikTok URL</label><input id="f-tiktok" placeholder="https://tiktok.com/@yourhandle"></div>
+        </div>
+
+        <button class="asave" onclick="saveContent()">Save content</button>
+        <span class="asaved-msg" id="content-saved-msg">✓ Saved</span>
+      </div>
+
+      <!-- GALLERY TAB -->
+      <div class="admin-panel" id="tab-gallery">
+        <div class="acard">
+          <h4>Project photos</h4>
+          <p style="font-size:0.85rem; color:#6B6255; margin-top:0;">Storage only holds text, so paste a hosted image URL (e.g. from Google Photos, Imgur, or your own site) rather than uploading a file. Leave empty to keep placeholders on the live site.</p>
+          <div id="gallery-items-list"></div>
+          <button class="asave" style="background:#fff; color:var(--ink); border:1px solid var(--line);" onclick="addGalleryItem()">+ Add photo</button>
+        </div>
+        <button class="asave" onclick="saveGallery()">Save gallery</button>
+        <span class="asaved-msg" id="gallery-saved-msg">✓ Saved</span>
+      </div>
+
+      <!-- LEADS TAB -->
+      <div class="admin-panel" id="tab-leads">
+        <div class="acard">
+          <h4>Add a lead manually</h4>
+          <div class="arow2">
+            <div class="afield"><label>Name</label><input id="ml-name"></div>
+            <div class="afield"><label>Phone or email</label><input id="ml-contact"></div>
+          </div>
+          <div class="afield"><label>Notes</label><textarea id="ml-notes" rows="2"></textarea></div>
+          <button class="asave" onclick="addManualLead()">Add lead</button>
+        </div>
+        <div id="leads-list"></div>
+      </div>
+
+      <!-- STOCK TAB -->
+      <div class="admin-panel" id="tab-stock">
+        <div class="acard">
+          <h4>Add a stock item</h4>
+          <div class="arow2">
+            <div class="afield"><label>Material name</label><input id="sk-name" placeholder="e.g. Merbau decking board"></div>
+            <div class="afield"><label>Unit</label><input id="sk-unit" placeholder="e.g. lineal metres, sheets, bags"></div>
+          </div>
+          <div class="arow2">
+            <div class="afield"><label>Quantity on hand</label><input id="sk-qty" type="number" step="any" min="0" value="0"></div>
+            <div class="afield"><label>Reorder level (low-stock alert below this)</label><input id="sk-reorder" type="number" step="any" min="0" value="0"></div>
+          </div>
+          <div class="afield"><label>Notes</label><input id="sk-notes" placeholder="e.g. supplier, size"></div>
+          <button class="asave" onclick="addStockItem()">Add item</button>
+        </div>
+        <div id="stock-list"></div>
+      </div>
+
+      <!-- PRODUCTS TAB -->
+      <div class="admin-panel" id="tab-products">
+        <div class="acard">
+          <h4>Add a shop product</h4>
+          <div class="arow2">
+            <div class="afield"><label>Name</label><input id="pr-name" placeholder="e.g. 3.6m x 3.6m Pergola Kit"></div>
+            <div class="afield"><label>Price (AUD)</label><input id="pr-price" type="number" step="0.01" min="0" placeholder="1899.00"></div>
+          </div>
+          <div class="afield"><label>Description</label><textarea id="pr-desc" rows="2" placeholder="Short description shown on the shop card"></textarea></div>
+          <div class="arow2">
+            <div class="afield"><label>Image URL</label><input id="pr-image" placeholder="https://..."></div>
+            <div class="afield"><label>Category</label><input id="pr-category" placeholder="e.g. Pergola"></div>
+          </div>
+          <button class="asave" onclick="addProduct()">Add product</button>
+        </div>
+        <div id="products-list"></div>
+      </div>
+
+      <!-- ORDERS TAB -->
+      <div class="admin-panel" id="tab-orders">
+        <div id="orders-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ============ API-backed storage (Neon Postgres via server.js) ============ */
+let adminPasswordMem = null; // kept in memory only, never persisted client-side
+
+async function apiGet(url, admin=false){
+  try{
+    const headers = admin && adminPasswordMem ? {'x-admin-password': adminPasswordMem} : {};
+    const r = await fetch(url, {headers});
+    if(!r.ok) return null;
+    return await r.json();
+  }catch(e){ console.error('GET failed', url, e); return null; }
+}
+async function apiSend(method, url, body, admin=false){
+  try{
+    const headers = {'Content-Type':'application/json'};
+    if(admin && adminPasswordMem) headers['x-admin-password'] = adminPasswordMem;
+    const r = await fetch(url, {method, headers, body: body!==undefined ? JSON.stringify(body) : undefined});
+    if(!r.ok) return {ok:false};
+    const data = await r.json().catch(()=>({ok:true}));
+    return {ok:true, data};
+  }catch(e){ console.error(method+' failed', url, e); return {ok:false}; }
+}
+
+/* ============ Public site: apply saved content ============ */
+async function applyPublicContent(){
+  const c = await apiGet('/api/content');
+  if(c){
+    if(c.eyebrow) document.getElementById('c-eyebrow').textContent = c.eyebrow;
+    if(c.hlA) document.getElementById('c-hl-a').textContent = c.hlA;
+    if(c.hlEm) document.getElementById('c-hl-em').textContent = c.hlEm;
+    if(c.hlB) document.getElementById('c-hl-b').textContent = c.hlB;
+    if(c.lede) document.getElementById('c-lede').textContent = c.lede;
+    if(c.ctaH2) document.getElementById('c-cta-h2').textContent = c.ctaH2;
+    if(c.phone){
+      const p = document.getElementById('c-phone-link');
+      p.textContent = c.phone; p.href = 'tel:' + c.phone.replace(/[^0-9+]/g,'');
+      document.getElementById('c-foot-phone').textContent = c.phone;
+    }
+    if(c.email) document.getElementById('c-foot-email').textContent = c.email;
+    if(c.address) document.getElementById('c-foot-address').textContent = c.address;
+    if(c.areas && c.areas.length){
+      document.getElementById('c-areas').innerHTML = c.areas.map(a=>'<span>'+escapeHtml(a)+'</span>').join('');
+    }
+    if(c.services){
+      document.querySelectorAll('#c-tags .tag').forEach((tagEl, i)=>{
+        const s = c.services[i];
+        if(!s) return;
+        if(s.title) tagEl.querySelector('h3').textContent = s.title;
+        if(s.desc) tagEl.querySelector('p').textContent = s.desc;
+        const rows = tagEl.querySelectorAll('.spec-row');
+        if(s.spec1Label) rows[0].querySelector('span').textContent = s.spec1Label;
+        if(s.spec1Value) rows[0].querySelector('b').textContent = s.spec1Value;
+        if(s.spec2Label) rows[1].querySelector('span').textContent = s.spec2Label;
+        if(s.spec2Value) rows[1].querySelector('b').textContent = s.spec2Value;
+      });
+    }
+    if(c.process){
+      document.querySelectorAll('#c-process-list .step').forEach((stepEl, i)=>{
+        const p = c.process[i];
+        if(!p) return;
+        if(p.title) stepEl.querySelector('h3').textContent = p.title;
+        if(p.desc) stepEl.querySelector('p').textContent = p.desc;
+      });
+    }
+    if(c.logoUrl && /^https?:\/\//i.test(c.logoUrl)){
+      const logoImgHtml = '<img src="'+escapeAttr(c.logoUrl)+'" alt="Outdoor Craft Co." style="max-height:44px; width:auto; display:block;" onerror="this.parentElement.dataset.imgFailed=\'1\'">';
+      document.getElementById('c-nav-logo').innerHTML = logoImgHtml;
+      document.getElementById('c-footer-logo').innerHTML = '<img src="'+escapeAttr(c.logoUrl)+'" alt="Outdoor Craft Co." style="max-height:52px; width:auto; display:block; margin-bottom:16px;" onerror="this.style.display=\'none\'">';
+    }
+    renderSocialIcons(c);
+  }
+  const gallery = await apiGet('/api/gallery');
+  if(gallery && gallery.length){
+    const grid = document.getElementById('c-gallery-grid');
+    grid.innerHTML = gallery.slice(0,5).map(g=>
+      '<div class="ph" data-label="'+escapeAttr(g.caption||'')+'"><img src="'+escapeAttr(g.url)+'" alt="'+escapeAttr(g.caption||'Project photo')+'" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.style.display=\'none\'"></div>'
+    ).join('');
+  }
+}
+function escapeHtml(s){ return s.replace(/[&<>"]/g, m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m])); }
+function escapeAttr(s){ return (s||'').toString().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+
+/* ============ Quote form -> leads ============ */
+document.getElementById('quote-form').addEventListener('submit', async function(e){
+  e.preventDefault();
+  const fd = new FormData(e.target);
+  const errEl = document.getElementById('quote-error');
+  if(!fd.get('phone') && !fd.get('email')){
+    errEl.textContent = 'Please add a phone number or email so we can get back to you.';
+    errEl.style.display = 'block';
+    return;
+  }
+  errEl.style.display = 'none';
+  const lead = {
+    name: fd.get('name') || '',
+    phone: fd.get('phone') || '',
+    email: fd.get('email') || '',
+    service: fd.get('service') || '',
+    message: fd.get('message') || '',
+    source: 'Website form'
+  };
+  await apiSend('POST', '/api/leads', lead, false);
+  e.target.style.display = 'none';
+  document.getElementById('quote-success').style.display = 'block';
+});
+
+/* ============ Mobile nav menu ============ */
+function toggleMobileMenu(){
+  const menu = document.getElementById('mobile-menu');
+  const btn = document.querySelector('.hamburger');
+  const isOpen = menu.classList.toggle('open');
+  btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+}
+function closeMobileMenu(){
+  document.getElementById('mobile-menu').classList.remove('open');
+  document.querySelector('.hamburger').setAttribute('aria-expanded', 'false');
+}
+
+/* ============ Router ============ */
+function routeToView(){
+  const isAdmin = location.hash === '#admin';
+  document.getElementById('public-view').style.display = isAdmin ? 'none' : '';
+  document.getElementById('admin-view').style.display = isAdmin ? 'block' : 'none';
+  closeMobileMenu();
+  if(isAdmin){
+    document.body.style.background = '#F3EFE6';
+    if(adminLoggedIn){ showDashboard(); } else { showLoginScreen(); }
+  } else {
+    document.body.style.background = '';
+  }
+}
+window.addEventListener('hashchange', routeToView);
+
+/* ============ Admin auth ============ */
+// Password is checked server-side (see server.js / ADMIN_PASSWORD env var).
+// The password is kept in a JS variable only (never localStorage), so you'll
+// need to log in again after a page refresh.
+let adminLoggedIn = false;
+function showLoginScreen(){
+  document.getElementById('admin-login').style.display = 'flex';
+  document.getElementById('admin-dashboard').style.display = 'none';
+}
+function showDashboard(){
+  document.getElementById('admin-login').style.display = 'none';
+  document.getElementById('admin-dashboard').style.display = 'block';
+  loadContentForm();
+  loadGalleryForm();
+  loadLeadsList();
+  loadStockList();
+  loadProductsAdmin();
+  loadOrdersAdmin();
+}
+async function tryAdminLogin(){
+  const val = document.getElementById('admin-pass').value;
+  const res = await apiSend('POST', '/api/admin/login', {password: val}, false);
+  if(res.ok && res.data && res.data.ok){
+    adminPasswordMem = val;
+    adminLoggedIn = true;
+    document.getElementById('admin-pass-error').style.display = 'none';
+    showDashboard();
+  } else {
+    document.getElementById('admin-pass-error').style.display = 'block';
+  }
+}
+document.getElementById('admin-pass').addEventListener('keydown', e=>{ if(e.key==='Enter') tryAdminLogin(); });
+function adminLogout(){
+  adminLoggedIn = false;
+  adminPasswordMem = null;
+  document.getElementById('admin-pass').value = '';
+  showLoginScreen();
+}
+function showAdminTab(name){
+  document.querySelectorAll('.admin-tab').forEach(t=>t.classList.toggle('active', t.dataset.tab===name));
+  document.querySelectorAll('.admin-panel').forEach(p=>p.classList.toggle('active', p.id==='tab-'+name));
+}
+
+/* ============ Content tab ============ */
+const defaultServices = [
+  {title:'Decks', desc:"Raised or ground-level decking that extends the house outward — built around downpipes, slopes and existing trees rather than against them.", spec1Label:'Typical timber', spec1Value:'Merbau / Spotted Gum', spec2Label:'Best for', spec2Value:'Sloped blocks, entertaining'},
+  {title:'Patios', desc:"Covered, all-weather patios that give you a usable outdoor room through Gippsland's wetter months, not just the summer ones.", spec1Label:'Typical roofing', spec1Value:'Insulated / polycarb', spec2Label:'Best for', spec2Value:'Year-round living space'},
+  {title:'Pergolas', desc:"Open-frame structures for shade and definition — a lighter-touch build for framing a spa, alfresco area or garden entertaining space.", spec1Label:'Typical timber', spec1Value:'Treated pine / hardwood', spec2Label:'Best for', spec2Value:'Shade, garden zoning'}
+];
+const defaultProcess = [
+  {title:'Consult & measure', desc:'We walk the site with you, talk through how the space will actually be used, and take accurate measurements.'},
+  {title:'Design & council check', desc:'Layout, timber and finish are confirmed, and we handle any Baw Baw Shire permit requirements before work starts.'},
+  {title:'Footings & frame', desc:'Footings are set to depth for our local ground conditions, then the frame goes up square and level.'},
+  {title:'Decking, screening & finish', desc:'Boards, balustrades or screening are fitted, then oiled or stained ready for weather.'},
+  {title:'Walkthrough & handover', desc:'We walk the finished build with you, cover care and maintenance, and hand it over.'}
+];
+async function loadContentForm(){
+  const c = (await apiGet('/api/content', true)) || {};
+  document.getElementById('f-logo').value = c.logoUrl || '';
+  document.getElementById('f-eyebrow').value = c.eyebrow || 'Warragul & the Gippsland region';
+  document.getElementById('f-hl-a').value = c.hlA || 'Outdoor living, ';
+  document.getElementById('f-hl-em').value = c.hlEm || 'built to last';
+  document.getElementById('f-hl-b').value = c.hlB || ' the seasons.';
+  document.getElementById('f-lede').value = c.lede || "Outdoor Craft Co. designs and builds timber decks, patios and pergolas on-site in Warragul — framed for our climate, finished to stay in the family for years.";
+  document.getElementById('f-phone').value = c.phone || '';
+  document.getElementById('f-email').value = c.email || '';
+  document.getElementById('f-address').value = c.address || 'Warragul, VIC';
+  document.getElementById('f-areas').value = (c.areas || ['Warragul','Drouin','Trafalgar','Yarragon','Neerim South']).join(', ');
+  document.getElementById('f-cta-h2').value = c.ctaH2 || "Got a space in mind? Let's measure it up.";
+  document.getElementById('f-facebook').value = c.facebook || '';
+  document.getElementById('f-instagram').value = c.instagram || '';
+  document.getElementById('f-tiktok').value = c.tiktok || '';
+
+  const services = c.services || defaultServices;
+  const wrap = document.getElementById('f-services');
+  wrap.innerHTML = services.map((s,i)=>`
+    <div style="border-top:1px solid var(--line); padding-top:16px; margin-top:16px;">
+      <div class="afield"><label>Card ${i+1} title</label><input id="f-svc-${i}-title" value="${attr(s.title)}"></div>
+      <div class="afield"><label>Card ${i+1} description</label><textarea id="f-svc-${i}-desc" rows="2">${s.desc||''}</textarea></div>
+      <div class="arow2">
+        <div class="afield"><label>Spec 1 label</label><input id="f-svc-${i}-l1" value="${attr(s.spec1Label)}"></div>
+        <div class="afield"><label>Spec 1 value</label><input id="f-svc-${i}-v1" value="${attr(s.spec1Value)}"></div>
+      </div>
+      <div class="arow2">
+        <div class="afield"><label>Spec 2 label</label><input id="f-svc-${i}-l2" value="${attr(s.spec2Label)}"></div>
+        <div class="afield"><label>Spec 2 value</label><input id="f-svc-${i}-v2" value="${attr(s.spec2Value)}"></div>
+      </div>
+    </div>`).join('');
+
+  const process = c.process || defaultProcess;
+  const pwrap = document.getElementById('f-process');
+  pwrap.innerHTML = process.map((p,i)=>`
+    <div style="border-top:1px solid var(--line); padding-top:16px; margin-top:16px;">
+      <div class="afield"><label>Step ${i+1} title</label><input id="f-step-${i}-title" value="${attr(p.title)}"></div>
+      <div class="afield"><label>Step ${i+1} description</label><textarea id="f-step-${i}-desc" rows="2">${p.desc||''}</textarea></div>
+    </div>`).join('');
+}
+function attr(s){ return (s||'').toString().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+async function saveContent(){
+  const services = [0,1,2].map(i=>({
+    title: document.getElementById(`f-svc-${i}-title`).value,
+    desc: document.getElementById(`f-svc-${i}-desc`).value,
+    spec1Label: document.getElementById(`f-svc-${i}-l1`).value,
+    spec1Value: document.getElementById(`f-svc-${i}-v1`).value,
+    spec2Label: document.getElementById(`f-svc-${i}-l2`).value,
+    spec2Value: document.getElementById(`f-svc-${i}-v2`).value,
+  }));
+  const process = [0,1,2,3,4].map(i=>({
+    title: document.getElementById(`f-step-${i}-title`).value,
+    desc: document.getElementById(`f-step-${i}-desc`).value,
+  }));
+  const logoUrlRaw = document.getElementById('f-logo').value.trim();
+  const content = {
+    logoUrl: logoUrlRaw,
+    eyebrow: document.getElementById('f-eyebrow').value,
+    hlA: document.getElementById('f-hl-a').value,
+    hlEm: document.getElementById('f-hl-em').value,
+    hlB: document.getElementById('f-hl-b').value,
+    lede: document.getElementById('f-lede').value,
+    phone: document.getElementById('f-phone').value,
+    email: document.getElementById('f-email').value,
+    address: document.getElementById('f-address').value,
+    areas: document.getElementById('f-areas').value.split(',').map(s=>s.trim()).filter(Boolean),
+    ctaH2: document.getElementById('f-cta-h2').value,
+    facebook: document.getElementById('f-facebook').value,
+    instagram: document.getElementById('f-instagram').value,
+    tiktok: document.getElementById('f-tiktok').value,
+    services,
+    process
+  };
+  if(logoUrlRaw && !/^https?:\/\//i.test(logoUrlRaw)){
+    flashSaved('content-saved-msg', false);
+    document.getElementById('content-saved-msg').textContent = 'Logo URL must start with http:// or https://';
+    document.getElementById('content-saved-msg').style.display = 'inline';
+    setTimeout(()=>{ document.getElementById('content-saved-msg').style.display = 'none'; }, 3000);
+    return;
+  }
+  const res = await apiSend('POST', '/api/content', content, true);
+  await applyPublicContent();
+  flashSaved('content-saved-msg', res.ok);
+}
+function flashSaved(id, ok){
+  const el = document.getElementById(id);
+  el.textContent = ok ? '✓ Saved' : 'Save failed — try again';
+  el.style.color = ok ? '#3E7C4A' : '#B23A2E';
+  el.style.display = 'inline';
+  setTimeout(()=>{ el.style.display = 'none'; }, 2500);
+}
+
+/* ============ Gallery tab ============ */
+let galleryItemsCache = [];
+async function loadGalleryForm(){
+  galleryItemsCache = (await apiGet('/api/gallery', true)) || [];
+  renderGalleryForm();
+}
+function renderGalleryForm(){
+  const list = document.getElementById('gallery-items-list');
+  if(!galleryItemsCache.length){
+    list.innerHTML = '<div class="empty-note">No photos added yet — the live site is showing placeholders.</div>';
+    return;
+  }
+  list.innerHTML = galleryItemsCache.map((g,i)=>`
+    <div class="gitem">
+      <input placeholder="Image URL" value="${attr(g.url)}" oninput="galleryItemsCache[${i}].url=this.value">
+      <input placeholder="Caption (optional)" value="${attr(g.caption)}" oninput="galleryItemsCache[${i}].caption=this.value">
+      <button class="gremove" onclick="removeGalleryItem(${i})">Remove</button>
+    </div>`).join('');
+}
+function addGalleryItem(){
+  galleryItemsCache.push({url:'', caption:''});
+  renderGalleryForm();
+}
+function removeGalleryItem(i){
+  galleryItemsCache.splice(i,1);
+  renderGalleryForm();
+}
+async function saveGallery(){
+  const cleaned = galleryItemsCache
+    .filter(g=>g.url && g.url.trim())
+    .filter(g=>/^https?:\/\//i.test(g.url.trim())); // only allow real http(s) image URLs
+  const res = await apiSend('POST', '/api/gallery', cleaned, true);
+  galleryItemsCache = cleaned;
+  await applyPublicContent();
+  flashSaved('gallery-saved-msg', res.ok);
+}
+
+/* ============ Leads tab ============ */
+let leadsCache = [];
+async function loadLeadsList(){
+  leadsCache = (await apiGet('/api/leads', true)) || [];
+  renderLeads();
+}
+const JOB_STATUSES = ['New','Contacted','Quoted','Booked','In Progress','Complete','Lost'];
+function renderLeads(){
+  const list = document.getElementById('leads-list');
+  if(!leadsCache.length){
+    list.innerHTML = '<div class="empty-note">No leads yet. Quote requests submitted on the live site will show up here.</div>';
+    return;
+  }
+  list.innerHTML = leadsCache.map((l,i)=>{
+    const paid = l.payment_status === 'Paid';
+    return `
+    <div class="lead-card">
+      <div class="lead-top">
+        <div>
+          <div class="lead-name">${escapeHtml(l.name||'(no name)')}</div>
+          <div class="lead-meta">${[l.phone,l.email].filter(Boolean).map(escapeHtml).join(' · ')}${l.service ? ' · '+escapeHtml(l.service) : ''}</div>
+          <div class="lead-meta">${escapeHtml(l.source||'Website form')} — ${new Date(l.submitted_at || l.submittedAt).toLocaleString()}</div>
+        </div>
+        <select onchange="updateLeadStatus(${i}, this.value)" style="padding:6px 10px; border-radius:20px; border:1px solid var(--line); font-size:0.78rem; font-weight:600;">
+          ${JOB_STATUSES.map(s=>`<option value="${s}" ${l.status===s?'selected':''}>${s}</option>`).join('')}
+        </select>
+      </div>
+      ${l.message ? `<div class="lead-msg">${escapeHtml(l.message)}</div>` : ''}
+      <div class="afield" style="margin-top:8px;">
+        <label>Notes</label>
+        <textarea rows="2" oninput="leadsCache[${i}].notes=this.value" placeholder="Follow-up notes...">${l.notes||''}</textarea>
+      </div>
+
+      <div style="border-top:1px dashed var(--line); margin-top:14px; padding-top:14px;">
+        <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+          <span class="status-pill" style="background:${paid?'#E4F3E7':'#F7F3EA'}; color:${paid?'#3E7C4A':'#8A7F6E'}; border-color:${paid?'#3E7C4A':'var(--line)'};">
+            ${paid ? '✓ Deposit paid' : 'Deposit unpaid'}${l.deposit_amount>0 ? ' — $'+Number(l.deposit_amount).toFixed(2)+' AUD' : ''}
+          </span>
+        </div>
+        ${!paid ? `
+        <div style="display:flex; gap:10px; margin-top:10px; align-items:center; flex-wrap:wrap;">
+          <input type="number" step="0.01" min="0" placeholder="Deposit amount (AUD)" id="dep-amt-${i}" value="${l.deposit_amount>0?Number(l.deposit_amount).toFixed(2):''}" style="width:180px; padding:9px 11px; border-radius:3px; border:1px solid var(--line); font-family:inherit;">
+          <button class="asave" style="padding:8px 14px; font-size:0.82rem;" onclick="createPaymentLink(${i})">Generate payment link</button>
+        </div>
+        <div id="pay-link-${i}" style="margin-top:8px; font-size:0.82rem;"></div>
+        ` : ''}
+      </div>
+
+      <div style="margin-top:14px;">
+        <button class="asave" style="padding:8px 16px; font-size:0.82rem;" onclick="saveLead(${i})">Save lead</button>
+        <button class="gremove" style="margin-left:8px;" onclick="deleteLead(${i})">Delete</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+async function updateLeadStatus(i, val){
+  leadsCache[i].status = val;
+  await apiSend('PUT', `/api/leads/${leadsCache[i].id}`, {status: val}, true);
+}
+async function saveLead(i){
+  await apiSend('PUT', `/api/leads/${leadsCache[i].id}`, {notes: leadsCache[i].notes, status: leadsCache[i].status}, true);
+  renderLeads();
+}
+async function deleteLead(i){
+  const id = leadsCache[i].id;
+  leadsCache.splice(i,1);
+  await apiSend('DELETE', `/api/leads/${id}`, undefined, true);
+  renderLeads();
+}
+async function createPaymentLink(i){
+  const amtInput = document.getElementById(`dep-amt-${i}`);
+  const amount = parseFloat(amtInput.value);
+  const box = document.getElementById(`pay-link-${i}`);
+  if(!amount || amount <= 0){
+    box.innerHTML = '<span style="color:#B23A2E;">Enter a deposit amount first.</span>';
+    return;
+  }
+  box.textContent = 'Generating link…';
+  const res = await apiSend('POST', `/api/leads/${leadsCache[i].id}/create-payment`, {amount}, true);
+  if(res.ok && res.data && res.data.url){
+    box.innerHTML = `<a href="${escapeAttr(res.data.url)}" target="_blank" style="color:var(--rust); font-weight:600;">Open payment link</a>
+      &nbsp;·&nbsp; <button class="gremove" style="padding:5px 10px;" onclick="navigator.clipboard.writeText('${escapeAttr(res.data.url)}')">Copy link</button>
+      <div style="color:#6B6255; margin-top:4px;">Send this to the customer — they pay by card, and this lead updates to "Paid" automatically once they do.</div>`;
+    leadsCache[i].deposit_amount = amount;
+  } else {
+    const errMsg = (res.data && res.data.error) || 'Failed to generate link — check STRIPE_SECRET_KEY is set on the server.';
+    box.innerHTML = `<span style="color:#B23A2E;">${escapeHtml(errMsg)}</span>`;
+  }
+}
+async function addManualLead(){
+  const name = document.getElementById('ml-name').value.trim();
+  if(!name) return;
+  const res = await apiSend('POST', '/api/leads', {
+    name,
+    phone: document.getElementById('ml-contact').value.trim(),
+    email: '',
+    service: '',
+    message: '',
+    notes: document.getElementById('ml-notes').value.trim(),
+    source: 'Manual entry'
+  }, true);
+  document.getElementById('ml-name').value = '';
+  document.getElementById('ml-contact').value = '';
+  document.getElementById('ml-notes').value = '';
+  await loadLeadsList();
+}
+
+/* ============ Stock tab ============ */
+let stockCache = [];
+async function loadStockList(){
+  stockCache = (await apiGet('/api/stock', true)) || [];
+  renderStock();
+}
+function renderStock(){
+  const list = document.getElementById('stock-list');
+  if(!stockCache.length){
+    list.innerHTML = '<div class="empty-note">No stock items yet — add your timber and materials above to start tracking what is on hand.</div>';
+    return;
+  }
+  list.innerHTML = stockCache.map((s,i)=>{
+    const low = Number(s.quantity) <= Number(s.reorder_level);
+    return `
+    <div class="lead-card">
+      <div class="lead-top">
+        <div style="flex:1;">
+          <div class="arow2">
+            <div class="afield"><label>Material name</label><input value="${attr(s.name)}" oninput="stockCache[${i}].name=this.value"></div>
+            <div class="afield"><label>Unit</label><input value="${attr(s.unit)}" oninput="stockCache[${i}].unit=this.value"></div>
+          </div>
+          <div class="arow2">
+            <div class="afield"><label>Quantity on hand</label><input type="number" step="any" min="0" value="${s.quantity}" oninput="stockCache[${i}].quantity=this.value"></div>
+            <div class="afield"><label>Reorder level</label><input type="number" step="any" min="0" value="${s.reorder_level}" oninput="stockCache[${i}].reorder_level=this.value"></div>
+          </div>
+          <div class="afield"><label>Notes</label><input value="${attr(s.notes)}" oninput="stockCache[${i}].notes=this.value"></div>
+        </div>
+        ${low ? '<span class="status-pill" style="background:#FBE7E3; color:#B23A2E; border-color:#B23A2E; white-space:nowrap;">Low stock</span>' : ''}
+      </div>
+      <button class="asave" style="padding:8px 16px; font-size:0.82rem;" onclick="saveStockItem(${i})">Save</button>
+      <button class="gremove" style="margin-left:8px;" onclick="deleteStockItem(${i})">Delete</button>
+    </div>`;
+  }).join('');
+}
+async function addStockItem(){
+  const name = document.getElementById('sk-name').value.trim();
+  if(!name) return;
+  await apiSend('POST', '/api/stock', {
+    name,
+    unit: document.getElementById('sk-unit').value.trim(),
+    quantity: parseFloat(document.getElementById('sk-qty').value) || 0,
+    reorder_level: parseFloat(document.getElementById('sk-reorder').value) || 0,
+    notes: document.getElementById('sk-notes').value.trim(),
+  }, true);
+  document.getElementById('sk-name').value = '';
+  document.getElementById('sk-unit').value = '';
+  document.getElementById('sk-qty').value = '0';
+  document.getElementById('sk-reorder').value = '0';
+  document.getElementById('sk-notes').value = '';
+  await loadStockList();
+}
+async function saveStockItem(i){
+  const s = stockCache[i];
+  await apiSend('PUT', `/api/stock/${s.id}`, {
+    name: s.name, unit: s.unit, quantity: parseFloat(s.quantity)||0, reorder_level: parseFloat(s.reorder_level)||0, notes: s.notes
+  }, true);
+  await loadStockList();
+}
+async function deleteStockItem(i){
+  const id = stockCache[i].id;
+  stockCache.splice(i,1);
+  await apiSend('DELETE', `/api/stock/${id}`, undefined, true);
+  renderStock();
+}
+
+/* ============ Social icons (public site) ============ */
+const SOCIAL_ICONS = {
+  facebook: '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>',
+  instagram: '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2c2.7 0 3.1 0 4.1.1 1 .1 1.7.2 2.3.5.6.3 1.1.6 1.6 1.1.5.5.8 1 1.1 1.6.3.6.4 1.3.5 2.3.1 1 .1 1.4.1 4.1s0 3.1-.1 4.1c-.1 1-.2 1.7-.5 2.3-.3.6-.6 1.1-1.1 1.6-.5.5-1 .8-1.6 1.1-.6.3-1.3.4-2.3.5-1 .1-1.4.1-4.1.1s-3.1 0-4.1-.1c-1-.1-1.7-.2-2.3-.5-.6-.3-1.1-.6-1.6-1.1-.5-.5-.8-1-1.1-1.6-.3-.6-.4-1.3-.5-2.3C2 15.1 2 14.7 2 12s0-3.1.1-4.1c.1-1 .2-1.7.5-2.3.3-.6.6-1.1 1.1-1.6.5-.5 1-.8 1.6-1.1.6-.3 1.3-.4 2.3-.5C8.9 2 9.3 2 12 2zm0 1.8c-2.6 0-3 0-4 .1-.9 0-1.4.2-1.7.3-.4.2-.7.3-1 .6-.3.3-.5.6-.6 1-.1.3-.3.8-.3 1.7-.1 1-.1 1.4-.1 4s0 3 .1 4c0 .9.2 1.4.3 1.7.2.4.3.7.6 1 .3.3.6.5 1 .6.3.1.8.3 1.7.3 1 .1 1.4.1 4 .1s3 0 4-.1c.9 0 1.4-.2 1.7-.3.4-.2.7-.3 1-.6.3-.3.5-.6.6-1 .1-.3.3-.8.3-1.7.1-1 .1-1.4.1-4s0-3-.1-4c0-.9-.2-1.4-.3-1.7-.2-.4-.3-.7-.6-1-.3-.3-.6-.5-1-.6-.3-.1-.8-.3-1.7-.3-1-.1-1.4-.1-4-.1zm0 4.6a5.6 5.6 0 1 1 0 11.2 5.6 5.6 0 0 1 0-11.2zm0 1.8a3.8 3.8 0 1 0 0 7.6 3.8 3.8 0 0 0 0-7.6zm5.8-2a1.3 1.3 0 1 1 0 2.6 1.3 1.3 0 0 1 0-2.6z"/></svg>',
+  tiktok: '<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2h-3v13.6a2.9 2.9 0 1 1-2.1-2.8v-3.1a6 6 0 1 0 5.1 5.9V8.2c1.2.9 2.6 1.4 4.1 1.4V6.6c-2.1 0-3.9-1.7-4.1-4.6z"/></svg>'
+};
+function renderSocialIcons(c){
+  const row = document.getElementById('c-social-row');
+  const links = [
+    c.facebook ? {url:c.facebook, icon:SOCIAL_ICONS.facebook, label:'Facebook'} : null,
+    c.instagram ? {url:c.instagram, icon:SOCIAL_ICONS.instagram, label:'Instagram'} : null,
+    c.tiktok ? {url:c.tiktok, icon:SOCIAL_ICONS.tiktok, label:'TikTok'} : null,
+  ].filter(Boolean);
+  row.innerHTML = links.map(l=>`<a href="${escapeAttr(l.url)}" target="_blank" rel="noopener" aria-label="${l.label}">${l.icon}</a>`).join('');
+}
+
+/* ============ Shop (public site) ============ */
+let productsCache = [];
+async function loadShopProducts(){
+  productsCache = (await apiGet('/api/products')) || [];
+  const grid = document.getElementById('shop-grid');
+  if(!productsCache.length){
+    grid.innerHTML = '<div class="empty-note">No products listed yet — check back soon, or get in touch for a custom quote.</div>';
+    return;
+  }
+  grid.innerHTML = productsCache.map(p=>`
+    <div class="shop-card">
+      <div class="ph shop-img" ${p.image_url ? `style="background-image:none;"` : ''}>
+        ${p.image_url ? `<img src="${escapeAttr(p.image_url)}" alt="${escapeAttr(p.name)}" style="width:100%;height:100%;object-fit:cover;display:block;" onerror="this.parentElement.removeAttribute('style')">` : ''}
+      </div>
+      <div class="shop-body">
+        <h3>${escapeHtml(p.name)}</h3>
+        <p class="shop-desc">${escapeHtml(p.description||'')}</p>
+        <div class="shop-price">$${Number(p.price).toFixed(2)} AUD</div>
+        <button class="btn" onclick="addToCart(${p.id})">Add to cart</button>
+      </div>
+    </div>`).join('');
+}
+
+/* ============ Cart (public site, in-memory only) ============ */
+let cart = []; // [{id, name, price, qty}]
+function addToCart(productId){
+  const p = productsCache.find(x=>x.id===productId);
+  if(!p) return;
+  const existing = cart.find(c=>c.id===productId);
+  if(existing){ existing.qty++; } else { cart.push({id:p.id, name:p.name, price:Number(p.price), qty:1}); }
+  updateCartBadge();
+  renderCart();
+  openCart();
+}
+function changeQty(id, delta){
+  const item = cart.find(c=>c.id===id);
+  if(!item) return;
+  item.qty += delta;
+  if(item.qty <= 0) cart = cart.filter(c=>c.id!==id);
+  updateCartBadge();
+  renderCart();
+}
+function updateCartBadge(){
+  const count = cart.reduce((n,c)=>n+c.qty,0);
+  const badge = document.getElementById('cart-count');
+  badge.textContent = count;
+  badge.style.display = count > 0 ? 'flex' : 'none';
+}
+function openCart(){
+  document.getElementById('cart-overlay').classList.add('open');
+  document.getElementById('cart-drawer').classList.add('open');
+}
+function closeCart(){
+  document.getElementById('cart-overlay').classList.remove('open');
+  document.getElementById('cart-drawer').classList.remove('open');
+}
+function renderCart(){
+  const itemsEl = document.getElementById('cart-items');
+  const footEl = document.getElementById('cart-foot');
+  if(!cart.length){
+    itemsEl.innerHTML = '<div class="empty-note">Your cart is empty.</div>';
+    footEl.innerHTML = '';
+    return;
+  }
+  itemsEl.innerHTML = cart.map(c=>`
+    <div class="cart-line">
+      <div style="flex:1;">
+        <div class="cart-line-name">${escapeHtml(c.name)}</div>
+        <div class="cart-line-price">$${c.price.toFixed(2)} each</div>
+        <div class="cart-qty" style="margin-top:6px;">
+          <button onclick="changeQty(${c.id},-1)">–</button>
+          <span>${c.qty}</span>
+          <button onclick="changeQty(${c.id},1)">+</button>
+        </div>
+      </div>
+      <div style="font-weight:600;">$${(c.price*c.qty).toFixed(2)}</div>
+    </div>`).join('');
+  const total = cart.reduce((n,c)=>n+c.price*c.qty,0);
+  footEl.innerHTML = `
+    <div class="cart-total"><span>Total</span><span>$${total.toFixed(2)} AUD</span></div>
+    <form id="checkout-form">
+      <input required name="name" placeholder="Your name">
+      <input name="phone" placeholder="Phone">
+      <input name="email" type="email" placeholder="Email">
+      <select name="fulfillment" id="checkout-fulfillment">
+        <option value="Pickup">Pickup (Warragul)</option>
+        <option value="Delivery">Delivery</option>
+      </select>
+      <textarea name="address" id="checkout-address" rows="2" placeholder="Delivery address"></textarea>
+      <button type="submit" class="btn" style="width:100%; justify-content:center;">Checkout — pay by card</button>
+    </form>
+    <div id="checkout-error" style="color:#B23A2E; font-size:0.82rem; margin-top:8px; display:none;"></div>`;
+  const fulfillSelect = document.getElementById('checkout-fulfillment');
+  const addressField = document.getElementById('checkout-address');
+  function syncAddressRequirement(){
+    const isDelivery = fulfillSelect.value === 'Delivery';
+    addressField.required = isDelivery;
+    addressField.placeholder = isDelivery ? 'Delivery address (required)' : 'Delivery address (if applicable)';
+  }
+  fulfillSelect.addEventListener('change', syncAddressRequirement);
+  syncAddressRequirement();
+  document.getElementById('checkout-form').addEventListener('submit', async function(e){
+    e.preventDefault();
+    const fd = new FormData(e.target);
+    const err = document.getElementById('checkout-error');
+    if(!fd.get('phone') && !fd.get('email')){
+      err.textContent = 'Please provide a phone number or email so we can reach you about your order.';
+      err.style.display = 'block';
+      return;
+    }
+    err.style.display = 'none';
+    const btn = e.target.querySelector('button[type=submit]');
+    btn.disabled = true; btn.textContent = 'Redirecting to payment…';
+    const res = await apiSend('POST', '/api/checkout', {
+      items: cart.map(c=>({id:c.id, qty:c.qty})),
+      customer: {
+        name: fd.get('name'), phone: fd.get('phone'), email: fd.get('email'),
+        fulfillment: fd.get('fulfillment'), address: fd.get('address')
+      }
+    }, false);
+    if(res.ok && res.data && res.data.url){
+      window.location.href = res.data.url;
+    } else {
+      btn.disabled = false; btn.textContent = 'Checkout — pay by card';
+      err.textContent = (res.data && res.data.error) || 'Checkout is not available yet — please contact us directly.';
+      err.style.display = 'block';
+    }
+  });
+}
+
+/* ============ Admin: Products tab ============ */
+let adminProductsCache = [];
+async function loadProductsAdmin(){
+  adminProductsCache = (await apiGet('/api/products', true)) || [];
+  renderProductsAdmin();
+}
+function renderProductsAdmin(){
+  const list = document.getElementById('products-list');
+  if(!adminProductsCache.length){
+    list.innerHTML = '<div class="empty-note">No products yet — add your first prebuilt deck or pergola above.</div>';
+    return;
+  }
+  list.innerHTML = adminProductsCache.map((p,i)=>`
+    <div class="lead-card">
+      <div class="arow2">
+        <div class="afield"><label>Name</label><input value="${attr(p.name)}" oninput="adminProductsCache[${i}].name=this.value"></div>
+        <div class="afield"><label>Price (AUD)</label><input type="number" step="0.01" min="0" value="${p.price}" oninput="adminProductsCache[${i}].price=this.value"></div>
+      </div>
+      <div class="afield"><label>Description</label><textarea rows="2" oninput="adminProductsCache[${i}].description=this.value">${p.description||''}</textarea></div>
+      <div class="arow2">
+        <div class="afield"><label>Image URL</label><input value="${attr(p.image_url)}" oninput="adminProductsCache[${i}].image_url=this.value"></div>
+        <div class="afield"><label>Category</label><input value="${attr(p.category)}" oninput="adminProductsCache[${i}].category=this.value"></div>
+      </div>
+      <label style="display:flex; align-items:center; gap:8px; font-size:0.88rem; margin-bottom:10px;">
+        <input type="checkbox" ${p.active ? 'checked' : ''} onchange="adminProductsCache[${i}].active=this.checked" style="width:auto;">
+        Visible on live site
+      </label>
+      <button class="asave" style="padding:8px 16px; font-size:0.82rem;" onclick="saveProduct(${i})">Save</button>
+      <button class="gremove" style="margin-left:8px;" onclick="deleteProduct(${i})">Delete</button>
+    </div>`).join('');
+}
+async function addProduct(){
+  const name = document.getElementById('pr-name').value.trim();
+  if(!name) return;
+  await apiSend('POST', '/api/products', {
+    name,
+    description: document.getElementById('pr-desc').value.trim(),
+    price: parseFloat(document.getElementById('pr-price').value) || 0,
+    image_url: document.getElementById('pr-image').value.trim(),
+    category: document.getElementById('pr-category').value.trim(),
+    active: true
+  }, true);
+  document.getElementById('pr-name').value = '';
+  document.getElementById('pr-desc').value = '';
+  document.getElementById('pr-price').value = '';
+  document.getElementById('pr-image').value = '';
+  document.getElementById('pr-category').value = '';
+  await loadProductsAdmin();
+}
+async function saveProduct(i){
+  const p = adminProductsCache[i];
+  await apiSend('PUT', `/api/products/${p.id}`, {
+    name: p.name, description: p.description, price: parseFloat(p.price)||0,
+    image_url: p.image_url, category: p.category, active: !!p.active
+  }, true);
+  await loadProductsAdmin();
+}
+async function deleteProduct(i){
+  const id = adminProductsCache[i].id;
+  adminProductsCache.splice(i,1);
+  await apiSend('DELETE', `/api/products/${id}`, undefined, true);
+  renderProductsAdmin();
+}
+
+/* ============ Admin: Orders tab ============ */
+let ordersCache = [];
+async function loadOrdersAdmin(){
+  ordersCache = (await apiGet('/api/orders', true)) || [];
+  renderOrdersAdmin();
+}
+const ORDER_STATUSES = ['Pending','Preparing','Ready for pickup','Shipped','Complete','Cancelled'];
+function renderOrdersAdmin(){
+  const list = document.getElementById('orders-list');
+  if(!ordersCache.length){
+    list.innerHTML = '<div class="empty-note">No orders yet. Purchases from the Shop will show up here.</div>';
+    return;
+  }
+  list.innerHTML = ordersCache.map((o,i)=>{
+    const paid = o.payment_status === 'Paid';
+    const items = (o.items||[]).map(it=>`${it.qty} × ${escapeHtml(it.name)}`).join(', ');
+    return `
+    <div class="lead-card">
+      <div class="lead-top">
+        <div>
+          <div class="lead-name">${escapeHtml(o.customer_name||'(no name)')}</div>
+          <div class="lead-meta">${[o.phone,o.email].filter(Boolean).map(escapeHtml).join(' · ')} · ${escapeHtml(o.fulfillment)}</div>
+          <div class="lead-meta">${new Date(o.created_at).toLocaleString()}</div>
+        </div>
+        <span class="status-pill" style="background:${paid?'#E4F3E7':'#F7F3EA'}; color:${paid?'#3E7C4A':'#8A7F6E'}; border-color:${paid?'#3E7C4A':'var(--line)'};">
+          ${paid ? '✓ Paid' : 'Unpaid'} — $${Number(o.total_amount).toFixed(2)}
+        </span>
+      </div>
+      <div class="lead-msg">${items}${o.address ? '<br>Address: '+escapeHtml(o.address) : ''}</div>
+      <div style="display:flex; gap:10px; align-items:center; margin-top:10px;">
+        <select onchange="updateOrderStatus(${i}, this.value)" style="padding:6px 10px; border-radius:20px; border:1px solid var(--line); font-size:0.78rem; font-weight:600;">
+          ${ORDER_STATUSES.map(s=>`<option value="${s}" ${o.order_status===s?'selected':''}>${s}</option>`).join('')}
+        </select>
+      </div>
+    </div>`;
+  }).join('');
+}
+async function updateOrderStatus(i, val){
+  ordersCache[i].order_status = val;
+  await apiSend('PUT', `/api/orders/${ordersCache[i].id}`, {order_status: val}, true);
+}
+
+/* ============ Init ============ */
+applyPublicContent();
+loadShopProducts();
+routeToView();
+</script>
+
+</body>
+</html>
