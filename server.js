@@ -219,7 +219,7 @@ app.post('/api/leads/:id/create-payment', requireAdmin, async (req, res) => {
           currency: 'aud',
           unit_amount: cents,
           product_data: {
-            name: `Outdoor Craft Co. — deposit${lead.service ? ' (' + lead.service + ')' : ''}`,
+            name: `Elevate Home Improvements — deposit${lead.service ? ' (' + lead.service + ')' : ''}`,
             description: `Job for ${lead.name || 'customer'}`,
           },
         },
@@ -501,5 +501,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Outdoor Craft Co. server running on port ${PORT}`);
+  console.log(`Elevate Home Improvements server running on port ${PORT}`);
 });

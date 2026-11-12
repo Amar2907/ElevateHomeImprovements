@@ -1,4 +1,4 @@
-# Outdoor Craft Co. — website + admin portal
+# Elevate Home Improvements — website + admin portal
 
 A Node/Express server that serves the site and stores content, gallery photos,
 and leads in a real Postgres database (Neon), so it can be deployed as a
@@ -7,7 +7,7 @@ proper always-on website instead of relying on Claude's artifact storage.
 ## What's in here
 
 ```
-outdoor-craft-co-app/
+elevate-home-improvements-app/
 ├── server.js        Express server + API (content, gallery, leads)
 ├── package.json
 ├── schema.sql        Run this once against your Neon database
@@ -19,14 +19,14 @@ outdoor-craft-co-app/
 
 ## 1. Push it to GitHub
 
-1. Create a new empty repository on GitHub (e.g. `outdoor-craft-co-site`).
+1. Create a new empty repository on GitHub (e.g. `elevate-home-improvements-site`).
 2. In this folder:
    ```
    git init
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/outdoor-craft-co-site.git
+   git remote add origin https://github.com/<your-username>/elevate-home-improvements-site.git
    git push -u origin main
    ```
    (`.env` is already excluded via `.gitignore` — don't remove that.)
@@ -46,9 +46,9 @@ outdoor-craft-co-app/
 
 1. Go to https://render.com and sign in (you can sign in with GitHub).
 2. **New +** → **Web Service** → connect your GitHub account → select the
-   `outdoor-craft-co-site` repo.
+   `elevate-home-improvements-site` repo.
 3. Configure it:
-   - **Name**: `outdoor-craft-co` (or anything)
+   - **Name**: `elevate-home-improvements` (or anything)
    - **Region**: closest to you
    - **Branch**: `main`
    - **Runtime**: Node
@@ -61,7 +61,7 @@ outdoor-craft-co-app/
      `OutdoorCraftCo2026`)
 5. Click **Create Web Service**. Render will build and deploy — after a
    couple of minutes you'll get a live URL like
-   `https://outdoor-craft-co.onrender.com`.
+   `https://elevate-home-improvements.onrender.com`.
 6. Visit it. Visit `/#admin` and log in with your `ADMIN_PASSWORD` to check
    the dashboard loads.
 
@@ -77,8 +77,8 @@ avoid that:
 1. Go to https://uptimerobot.com and create a free account.
 2. **+ Add New Monitor**:
    - **Monitor Type**: HTTP(s)
-   - **Friendly Name**: Outdoor Craft Co.
-   - **URL**: `https://outdoor-craft-co.onrender.com/healthz`
+   - **Friendly Name**: Elevate Home Improvements
+   - **URL**: `https://elevate-home-improvements.onrender.com/healthz`
      (the server has a `/healthz` route built in for exactly this)
    - **Monitoring Interval**: 5 minutes
 3. Save. UptimeRobot will now ping your site every 5 minutes, which keeps

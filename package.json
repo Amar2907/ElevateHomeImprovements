@@ -1,7 +1,7 @@
 {
-  "name": "outdoor-craft-co-site",
+  "name": "elevate-home-improvements-site",
   "version": "1.0.0",
-  "description": "Outdoor Craft Co. website + admin portal, backed by Postgres (Neon)",
+  "description": "Elevate Home Improvements website + admin portal, backed by Postgres (Neon)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
